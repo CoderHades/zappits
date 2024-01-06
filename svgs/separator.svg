@@ -1,0 +1,48 @@
+<svg style="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496.93 10">
+  <!-- style="height: 40px; width: auto;" -->
+  <defs>
+    <style>
+      .cls-1{fill:#a400d0;}
+      .cls-2{fill:#00acd0;}
+      .cls-3{fill:#00ff94;}
+      .cls-4{fill:#bf0;}
+      .cls-5{fill:#002773;}
+      .cls-6{fill:#ffd400;}
+      .cls-7{fill:#731200;}
+      .cls-8{fill:#008ea2;}
+      .cls-9{fill:#d08100;}
+      .cls-10{fill:#f40;}
+      .cls-11{fill:#1f8b00;}
+      .cls-12{fill:#007349;}
+      .cls-13{fill:#e75d00;}
+      .cls-14{fill:#9aa200;}
+      .cls-15{fill:#ff8645;}
+      .cls-16{fill:#00e710;}
+      .cls-17{fill:#0058b9;}
+      #Layer_2 {
+        border: 1px solid black;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <polygon class="cls-10" points="0,0 32.95,0 32.96,10 0,10 0,0"/>
+      <polygon class="cls-1" points="43.1,0 48.65,0 48.65,10 43.12,10 43.1,0"/>
+      <polygon class="cls-17" points="55.27,0 60.24,0 60.26,10 55.29,10 55.27,0"/>
+      <polygon class="cls-2" points="80.7,0 112.75,0 112.77,10 80.72,10 80.7,0"/>
+      <polygon class="cls-3" points="118.81,0 161.33,0 161.35,10 118.83,10 118.81,0"/>
+      <polygon class="cls-16" points="166.37,0 175.21,0 175.23,10 166.38,10 166.37,0"/>
+      <polygon class="cls-4" points="181.85,0 220.55,0 220.56,10 181.87,10 181.85,0"/>
+      <polygon class="cls-6" points="228.83,0 260.09,0 260.1,10 228.85,10 228.83,0"/>
+      <polygon class="cls-13" points="268.35,0 277.2,0 277.21,10 268.37,10 268.35,0"/>
+      <polygon class="cls-15" points="282.45,0 290.75,0 290.76,10 282.46,10 282.45,0"/>
+      <polygon class="cls-7" points="306.46,0 337.72,0 337.74,10 306.48,10 306.46,0"/>
+      <polygon class="cls-9" points="341.05,0 346.58,0 346.6,10 341.07,10 341.05,0"/>
+      <polygon class="cls-14" points="366.49,0 375.27,0 375.29,10 366.51,10 366.49,0"/>
+      <polygon class="cls-12" points="410.68,0 416.22,0 416.23,10 410.7,10 410.68,0"/>
+      <polygon class="cls-11" points="400.75,0 406.28,0 406.3,10 400.76,10 400.75,0"/>
+      <polygon class="cls-8" points="427.26,0 458.36,0 458.37,10 427.28,10 427.26,0"/>
+      <polygon class="cls-5" points="468.08,0 496.92,0 496.93,10 468.1,10 468.08,0"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+    <defs>
+        <style>
+            .cls-1{fill:#a400d0;}
+            .cls-2{fill:#00acd0;}
+            .cls-3{fill:#00ff94;}
+            .cls-4{fill:#bf0;}
+            .cls-5{fill:#002773;}
+            .cls-6{fill:#ffd400;}
+            .cls-7{fill:#731200;}
+            .cls-8{fill:#008ea2;}
+            .cls-9{fill:#d08100;}
+            .cls-10{fill:#f40;}
+            .cls-11{fill:#1f8b00;}
+            .cls-12{fill:#007349;}
+            .cls-13{fill:#e75d00;}
+            .cls-14{fill:#9aa200;}
+            .cls-15{fill:#ff8645;}
+            .cls-16{fill:#00e710;}
+            .cls-17{fill:#0058b9;}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <rect class="cls-1" y="86.73" width="1000" height="11.17"/>
+            <rect class="cls-2" y="162.4" width="1000" height="64.5"/>
+            <rect class="cls-3" y="239.1" width="1000" height="85.57"/>
+            <rect class="cls-4" y="365.97" width="1000" height="77.87"/>
+            <rect class="cls-5" y="941.97" width="1000" height="58.03"/>
+            <rect class="cls-6" y="460.5" width="1000" height="62.9"/>
+            <rect class="cls-7" y="616.73" width="1000" height="62.9"/>
+            <rect class="cls-8" y="859.83" width="1000" height="62.57"/>
+            <rect class="cls-9" y="686.33" width="1000" height="11.13"/>
+            <rect class="cls-10" width="1000" height="66.3"/>
+            <rect class="cls-11" y="806.47" width="1000" height="11.13"/>
+            <rect class="cls-12" y="826.47" width="1000" height="11.13"/>
+            <rect class="cls-13" y="540.03" width="1000" height="17.8"/>
+            <rect class="cls-14" y="737.53" width="1000" height="17.67"/>
+            <rect class="cls-15" y="568.4" width="1000" height="16.7"/>
+            <rect class="cls-16" y="334.8" width="1000" height="17.8"/>
+            <rect class="cls-17" y="111.23" width="1000" height="10"/>
+        </g>
+    </g>
+</svg>
