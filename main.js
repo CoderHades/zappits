@@ -130,7 +130,7 @@ $('.retailer-list .unit').on('click', function(){
     }
 
         console.log(appendage);
-    var url = "https://" + window.location.host + "/coupons/" + retailers.baseFolder + "/" + appendage;
+    var url = "https://" + window.location.host + "/zappit/coupons/" + retailers.baseFolder + "/" + appendage;
     $('#barCodeWrapper').css({ "--encryped-barcode-background": "url(" + url + ")" });
     $('#rawBarcode').text(retailers.retailers[$(this).data('store')]);
 
