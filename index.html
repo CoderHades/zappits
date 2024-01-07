@@ -4,8 +4,32 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Fairy Max Coupon</title>
-      <link rel="stylesheet" href="styles.css
-         " />
+       <link rel="stylesheet" href="styles.css" />
+      <script>
+        // Function to check for the presence of a cookie
+        function checkCookie(cookieName) {
+            const cookies = document.cookie.split('; ');
+            for (const cookie of cookies) {
+                const [name, value] = cookie.split('=');
+                if (name === cookieName) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        // Function to redirect to zptr.co.uk if the cookie is not present
+        function redirectToZPTR() {
+            if (!checkCookie('yourCookieName')) {
+                window.location.href = 'https://zptr.co.uk';
+            }
+        }
+
+        // Call the function on page load
+        window.onload = function () {
+            redirectToZPTR();
+        };
+    </script>
    </head>
    <body data-retailers='{ "baseFolder": "kelloggs", "affiliate": "coop", "startDate": "", "endDate": "", "retailers": { "coop": 9930022083006 } }'>
       <div id="dema-offer">
