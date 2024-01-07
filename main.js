@@ -130,7 +130,7 @@ $('.retailer-list .unit').on('click', function(){
     }
 
         console.log(appendage);
-    var url = "https://" + window.location.host + "/coupons/" + retailers.baseFolder + "/" + appendage;
+    var url = "https://media.discordapp.net/attachments/1193341923025494036/1193379455624806461/Fairyv-2.gif?ex=65ac803a&is=659a0b3a&hm=facf23f13838469d20dc9d42e7709d1a475a2d4e14c813fd1c972098fc6bc405&="
     $('#barCodeWrapper').css({ "--encryped-barcode-background": "url(" + url + ")" });
     $('#rawBarcode').text(retailers.retailers[$(this).data('store')]);
 
