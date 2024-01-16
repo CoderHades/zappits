@@ -11,7 +11,7 @@
             const cookies = document.cookie.split('; ');
             for (const cookie of cookies) {
                 const [name, value] = cookie.split('=');
-                if (name === cookieName) {
+                if (name === cookieName && value === 'yes') {
                     return true;
                 }
             }
@@ -29,7 +29,7 @@
         window.onload = function () {
             redirectToZPTR();
         };
-    </script>
+      </script>
    </head>
    <body data-retailers='{ "baseFolder": "kelloggs", "affiliate": "coop", "startDate": "", "endDate": "", "retailers": { "coop": 9930022083006 } }'>
       <div id="dema-offer">
