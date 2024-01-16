@@ -6,30 +6,31 @@
       <title>Fairy Max Coupon</title>
        <link rel="stylesheet" href="styles.css" />
       <script>
-        // Function to check for the presence of a cookie
-        function checkCookie(cookieName) {
-            const cookies = document.cookie.split('; ');
-            for (const cookie of cookies) {
-                const [name, value] = cookie.split('=');
-                if (name === cookieName && value === 'yes') {
-                    return true;
-                }
-            }
-            return false;
-        }
-
-        // Function to redirect to zptr.co.uk if the cookie is not present
-        function redirectToZPTR() {
-            if (!checkCookie('roles')) {
-                window.location.href = 'https://zptr.co.uk';
+    // Function to check for the presence of a cookie
+    function checkDiscordCookie() {
+        const cookies = document.cookie.split('; ');
+        for (const cookie of cookies) {
+            const [name, value] = cookie.split('=');
+            if (name === 'discord' && value === 'yes') {
+                return true;
             }
         }
+        return false;
+    }
 
-        // Call the function on page load
-        window.onload = function () {
-            redirectToZPTR();
-        };
-      </script>
+    // Function to redirect to zptr.co.uk if the 'discord' cookie is not present
+    function redirectToZPTR() {
+        if (!checkDiscordCookie()) {
+            window.location.href = 'https://zptr.co.uk';
+        }
+    }
+
+    // Call the function on page load
+    window.onload = function () {
+        redirectToZPTR();
+    };
+</script>
+
    </head>
    <body data-retailers='{ "baseFolder": "kelloggs", "affiliate": "coop", "startDate": "", "endDate": "", "retailers": { "coop": 9930022083006 } }'>
       <div id="dema-offer">
